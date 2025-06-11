@@ -5,26 +5,30 @@
 	<body>
 		<br><!--Abertura do formulário-->
 		<form action="/recebe.html" method="post">
-		<br><!--Campo de login-->	
+		<br><!--Campo de nome completo-->	
 		<br> <label for="login"> Nome completo:</label>	
-		<br> Nome completo: <input type="text" maxlenght="50" id="login">
+		<br> <input type="text" maxlenght="50" id="nomecompleto" name="nomecompleto">
 		<br>
-		<br> <label for="senha"> Senha:</label>
-		<!--Campo de senha-->	
-		<br> Senha: <input type="password" id="senha" name="senha">	
+		<br><!--Campo para senha-->	     
+		<br> <label for="senha"> Senha:</label>	
+		<br> <input type="password" id="senha" name="senha">	
 		<br>
+		<br><!--campo para idade-->
 		<br> <label for="idade"> Idade:</label>	
-		<br> Idade: <input type="number"  min="01" max="120" id="idade" name="idade">
+		<br> <input type="number"  min="01" max="120" id="idade" name="idade">
 		<br>
+		<br><!--Campo para email-->	
 		<br> <label for="email"> E-mail:</label>	
-		<br> E-mail: <input type="email" id="email" name="email">
+		<br> <input type="email" id="email" name="email">
 		<br>
+		<br><!--Campo para data de nascimento-->	
 		<br> <label for="date"> Data de nascimento:</label>	
-		<br> Data de nascimento: <input type="date" min="2000.01.01" max="2024.12.31" id="date" name="date">
+		<br> <input type="date" min="2000.01.01" max="2024.12.31" id="date" name="date">
 		<br>
-		<br>	
+		<br><!--campo para escrever observações-->	
 		<br> Obs:<br> <textarea rows="4" cols="40"> </textarea>
 		<br>
+		<br><!--campo de seleção-->	
 		<br><select><option value="programação"> Programação</option>
 			<option value="design"> Design </option>
 			<option value="redes"> Redes </option>
